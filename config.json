@@ -1,0 +1,10 @@
+{
+  "bioUrl": "https://raw.githubusercontent.com/seerintelligence/seer-webapp/main/README.md",
+  "social": {
+    "instagram": "SeerIntelligence",
+    "github": "SeerIntelligence",
+    "linkedin": "SeerIntelligence"
+  },
+  "theme": "chalk",
+  "border": true
+}
