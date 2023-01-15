@@ -1,5 +1,5 @@
-import React from 'react';
-import { useTheme } from '../../utils/themeProvider';
+import React from "react";
+import { useTheme } from "../../utils/themeProvider";
 
 interface Props {
   children: React.ReactNode;
@@ -11,14 +11,13 @@ const Layout: React.FC<Props> = ({ children, onClick }) => {
 
   return (
     <div
-      className="min-w-max text-xs md:min-w-full md:text-base"
-      onClick={onClick}
+      className="text-xs md:min-w-full truncate"
       style={{
         color: theme.foreground,
       }}
     >
       <main
-        className="w-full h-full p-2"
+        className="text-clip w-full h-full p-2"
         style={{
           background: theme.background,
         }}

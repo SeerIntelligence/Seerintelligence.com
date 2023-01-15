@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'CascadiaCode';
+  font-family: "CascadiaCode";
   src: url(/assets/fonts/CascadiaCode.ttf);
   display: swap;
 }
 
 * {
-  font-family: 'CascadiaCode', monospace;
+  font-family: "CascadiaCode", monospace;
+  font-size: 18px;
 }
 
 html,
